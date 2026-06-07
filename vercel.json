@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm --filter @workspace/hot-wheels-vault build",
+  "outputDirectory": "artifacts/hot-wheels-vault/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
